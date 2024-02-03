@@ -12,9 +12,9 @@ const comicalResponses = [
   "Almost convinced...",
   "I'm not giving up!",
   "You do realize I'll keep asking?",
-  "Yes is the right answer...",
+  "This Button Is Broken.",
   "Just click Yes!",
-  "No means Yes, right?",
+  "Click Yes to Confirm No.",
 ];
 
 export default function ValentineQuestion({ handleShowCofetti }) {
