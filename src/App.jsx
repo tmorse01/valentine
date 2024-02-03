@@ -32,6 +32,7 @@ function App() {
   const [noButtonText, setNoButtonText] = useState("No");
 
   const handleNoClick = () => {
+    const responseIndex = Math.floor(Math.random() * comicalResponses.length);
     setNoButtonText(comicalResponses[responseIndex % comicalResponses.length]);
   };
 
@@ -45,6 +46,7 @@ function App() {
   return (
     <ConfigProvider theme={themeToken}>
       <AntdApp>
+        {contextHolder}
         <Layout className="app-layout">
           <Content className="app-content">
             <Title className="valentine-name" level={1}>
