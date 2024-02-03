@@ -38,8 +38,9 @@ export default function ValentineQuestion({ handleShowCofetti }) {
       <Title className="valentine-question" level={2}>
         Will you be my Valentine?
       </Title>
-      <div>
+      <div className="answer-buttons">
         <Button
+          block
           type="primary"
           size="large"
           onClick={handleYesClick}
@@ -47,7 +48,7 @@ export default function ValentineQuestion({ handleShowCofetti }) {
         >
           Yes
         </Button>
-        <Button size="large" onClick={handleNoClick}>
+        <Button block size="large" onClick={handleNoClick}>
           {noButtonText}
         </Button>
       </div>

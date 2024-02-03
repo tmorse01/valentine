@@ -1,6 +1,7 @@
 .app-layout {
   display: grid;
   height: 100vh;
+  justify-content: center;
 }
 
 .app-content {
@@ -8,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 80vw;
 }
 
 .valentine-name {
@@ -38,4 +40,11 @@
   /* Increases the opacity back to full when hovering over the image */
   opacity: 1;
   z-index: 999;
+}
+
+.answer-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
 }
