@@ -18,7 +18,7 @@ const comicalResponses = [
   "No means Yes, right?",
 ];
 
-export default function Valentine() {
+export default function Valentine({ handleShowCofetti }) {
   const { name } = useParams();
 
   const [noButtonText, setNoButtonText] = useState("No");
@@ -30,10 +30,11 @@ export default function Valentine() {
   };
 
   const handleYesClick = () => {
-    api.success({
-      message: `Yay!`,
-      description: "You made the right choice! Happy Valentine's Day!",
-    });
+    // api.success({
+    //   message: `Yay!`,
+    //   description: "You made the right choice! Happy Valentine's Day!",
+    // });
+    handleShowCofetti();
   };
   return (
     <Layout className="app-layout">
