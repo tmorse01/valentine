@@ -9,7 +9,7 @@ const comicalResponses = [
   "Oh, come on!",
   "Are you sure?",
   "Give it another shot!",
-  "Almost convinced...",
+  "Are You Sure You're Sure?",
   "I'm not giving up!",
   "You do realize I'll keep asking?",
   "This Button Is Broken.",
