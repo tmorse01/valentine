@@ -24,7 +24,7 @@
   /* Fades the image into the background */
   opacity: 0.6; /* Adjust as needed, values range from 0 to 1 */
   transition: opacity 0.5s ease-in-out; /* Smooth transition for the fade effect */
-  width: 400px; /* Adjust the width as needed */
+  width: 350px; /* Adjust the width as needed */
   /* Rounds the corners of the image */
   border-radius: 20px; /* Adjust the pixel value as needed */
 
