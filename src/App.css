@@ -22,6 +22,16 @@
   margin: 1rem 0 1rem 0 !important;
 }
 
+.celebration-title {
+  font-size: 8vw !important;
+  margin: 1rem 0 1rem 0 !important;
+}
+
+.celebration-message {
+  font-size: 4vw !important;
+  margin: 1rem 0 1rem 0 !important;
+}
+
 .image-enhanced {
   /* Fades the image into the background */
   opacity: 0.6; /* Adjust as needed, values range from 0 to 1 */
