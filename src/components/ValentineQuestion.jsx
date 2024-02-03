@@ -31,7 +31,7 @@ export default function ValentineQuestion({ handleShowCofetti }) {
   };
 
   return (
-    <div>
+    <>
       <Title className="valentine-name" level={1}>
         {name ? `Hey ${name}` : "Hey You"}
       </Title>
@@ -51,6 +51,6 @@ export default function ValentineQuestion({ handleShowCofetti }) {
           {noButtonText}
         </Button>
       </div>
-    </div>
+    </>
   );
 }
