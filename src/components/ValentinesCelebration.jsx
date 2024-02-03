@@ -7,10 +7,9 @@ const ValentinesCelebration = () => {
   return (
     <>
       <Title level={1} className="valentine-name">
-        Yay!
+        Yay! You said yes!
       </Title>
-      <Title className="valentine-question">You said yes!</Title>
-      <Title level={3} className="valentine-question">
+      <Title level={2} className="valentine-question">
         Happy Valentines Day my love! 🥰
       </Title>
       <img className="image-enhanced" src="/valentines-day-embrace.png" />
