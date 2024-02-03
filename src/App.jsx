@@ -3,7 +3,7 @@ import { ConfigProvider, App as AntdApp, notification } from "antd";
 import { themeToken } from "./lib/theme-token";
 import { HappyProvider } from "@ant-design/happy-work-theme";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Valentine from "./Valentine";
+import Valentine from "./components/Valentine";
 import Confetti from "react-confetti";
 
 import "./App.css";
@@ -49,11 +49,21 @@ function App() {
             <Routes>
               <Route
                 path="/"
-                element={<Valentine handleShowCofetti={handleShowCofetti} />}
+                element={
+                  <Valentine
+                    showConfetti={showConfetti}
+                    handleShowCofetti={handleShowCofetti}
+                  />
+                }
               />
               <Route
                 path="/:name"
-                element={<Valentine handleShowCofetti={handleShowCofetti} />}
+                element={
+                  <Valentine
+                    showConfetti={showConfetti}
+                    handleShowCofetti={handleShowCofetti}
+                  />
+                }
               />
             </Routes>
           </Router>
